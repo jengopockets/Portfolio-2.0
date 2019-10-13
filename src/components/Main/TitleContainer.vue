@@ -1,24 +1,35 @@
 <template>
     <div>
     <Title />
-    <Profile />
     </div>
 </template>
 <script>
 import Title from "./Title";
-import Profile from "./Profile";
 export default {
     name: "titleContainer",  
     components: {
-        Title,
-        Profile
+        Title
     }  
 }
 </script>
 <style scoped>
 div {
-    margin-right: 33%;
-    margin-left: 33%;
+    background: url("../../assets/eclipse.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
     display: flex;
+    align-content: center;
+    padding-top: 10%;
+}
+@media only screen and (min-width: 1000px) {
+    div {
+        background: url("../../assets/eclipse.jpg") no-repeat fixed;
+        background-position: center top;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
 }
 </style>

@@ -26,14 +26,9 @@ export default {
 html {
   height: 100%;
   width: 100%;
-  background: url("./assets/eclipse.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
-
 body {
+  background-image: linear-gradient(to top, #111111 0%, black 100%);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
 }
