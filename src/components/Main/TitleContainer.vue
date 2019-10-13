@@ -26,8 +26,32 @@ export default {
     padding-top: 10%;
     padding-bottom: 50%;
 }
+@media only screen and (min-width: 600px) {
+    #eclipse , div {
+        background-position: center top;
+        padding-top: 5%;
+    }
+}
 
 @media only screen and (min-width: 900px) {
+    #eclipse , div {
+        background: url("../../assets/eclipse.jpg") no-repeat fixed;
+        background-position: center top;
+        padding-top: 10%;
+        height: 100%;
+        padding-bottom: 10%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #eclipse , div {
+        background: url("../../assets/eclipse.jpg") no-repeat fixed;
+        background-position: center top;
+        padding-top: 8%;
+        height: 100%;
+        padding-bottom: 10%;
+    }
+}
+@media only screen and (min-width: 1500px) {
     #eclipse , div {
         background: url("../../assets/eclipse.jpg") no-repeat fixed;
         background-position: center top;

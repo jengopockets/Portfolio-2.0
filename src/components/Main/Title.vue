@@ -34,7 +34,6 @@ div {
     align-items: center; 
 }
 #titletext {   
-    border: 2px solid rgb(5, 3, 32);
     opacity: 1;
 }
 #curveboi {
