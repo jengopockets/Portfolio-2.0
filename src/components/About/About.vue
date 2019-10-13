@@ -7,7 +7,7 @@
             </p>
         </div>
 
-        <img src="../../assets/profile.png"/>
+        <img src="../../assets/profile.png" alt="Profile Picture"/>
         
     </div>    
 </template>

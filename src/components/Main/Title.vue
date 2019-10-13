@@ -41,7 +41,7 @@ div {
 }
 @media only screen and (min-width: 1000px) {
     #titletext {
-        font-size: 40px;
+        font-size: 30px;
     }
     #curveboi {
     font-size: 45px;

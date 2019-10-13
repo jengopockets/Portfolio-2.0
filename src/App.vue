@@ -12,13 +12,17 @@
   <div>
   <About/>
   </div>
+  <div>
+  <Skills/>
+  </div>
   </div>
 </template>
 
 <script>
 import Title from './components/Main/TitleContainer.vue';
 import NavBar from './components/NavBar/Navbar';
-import About from './components/About/About'
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 
 
 export default {
@@ -26,7 +30,8 @@ export default {
   components: {
     Title,
     NavBar,
-    About
+    About,
+    Skills
   }
 }
 </script>
