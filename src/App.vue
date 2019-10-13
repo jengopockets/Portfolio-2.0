@@ -1,20 +1,25 @@
 <template>
   <div id="app">
+  <div>
   <div id='stars'></div>
   <div id='stars2'></div>
   <div id='stars3'></div>
+  </div>
+  <NavBar/>
   <Title/>
   </div>
 </template>
 
 <script>
 import Title from './components/Main/TitleContainer.vue';
+import NavBar from './components/NavBar/Navbar';
 
 
 export default {
   name: 'app',
   components: {
-    Title
+    Title,
+    NavBar
   }
 }
 </script>

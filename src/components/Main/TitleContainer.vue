@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="eclipse">
     <Title />
     </div>
 </template>
@@ -29,7 +29,6 @@ div {
         background: url("../../assets/eclipse.jpg") no-repeat fixed;
         background-position: center top;
         padding-top: 5%;
-        padding-bottom: 10%;
     }
 }
 </style>
