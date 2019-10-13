@@ -34,10 +34,8 @@ div {
     align-items: center; 
 }
 #titletext {   
-    color: white; 
     border: 2px solid rgb(5, 3, 32);
     opacity: 1;
-    font-family: andromeda; 
 }
 #curveboi {
     font-size: 34px;

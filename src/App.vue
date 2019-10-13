@@ -1,40 +1,51 @@
 <template>
   <div id="app">
+  <NavBar/>
   <div>
   <div id='stars'></div>
   <div id='stars2'></div>
   <div id='stars3'></div>
   </div>
-  <NavBar/>
+  <div>
   <Title/>
+  </div>
+  <div>
+  <About/>
+  </div>
   </div>
 </template>
 
 <script>
 import Title from './components/Main/TitleContainer.vue';
 import NavBar from './components/NavBar/Navbar';
+import About from './components/About/About'
 
 
 export default {
   name: 'app',
   components: {
     Title,
-    NavBar
+    NavBar,
+    About
   }
 }
 </script>
 
 <style>
 
-
+@font-face {
+  font-family: andromeda;
+  src: url(./assets/andromeda.ttf);
+}
 
 html {
   height: 100%;
   width: 100%;
 }
 body {
+  color: white;
   background-image: linear-gradient(to top, #111111 0%, black 100%);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: andromeda, Helvetica, sans-serif;
   line-height: 1.4;
 }
 #stars {
