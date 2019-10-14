@@ -4,9 +4,9 @@
             <h2>Skills</h2>
         </div>
         <div id="img">
-        <img src="../../assets/React.png" alt="React Logo"/>
-        <img src="../../assets/Javascript.png" alt="JavaScript Logo"/>
-        <img src="../../assets/Node.png" alt="Node Logo"/>
+            <img src="../../assets/React.png" alt="React Logo"/>
+            <img src="../../assets/Javascript.png" alt="JavaScript Logo"/>
+            <img src="../../assets/Node.png" alt="Node Logo"/>
         </div>
         
     </div>    

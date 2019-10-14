@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-  <NavBar/>
-  <div>
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
-  </div>
-  <div>
-  <Title/>
-  </div>
-  <div>
-  <About/>
-  </div>
-  <div>
-  <Skills/>
-  </div>
+    <NavBar/>
+    <div>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+    </div>
+    <div>
+      <Title/>
+    </div>
+    <div>
+      <About/>
+    </div>
+    <div>
+      <Skills/>
+    </div>
+    <div>
+      <Projects/>
+    </div>
   </div>
 </template>
 
@@ -23,6 +26,7 @@ import Title from './components/Main/TitleContainer.vue';
 import NavBar from './components/NavBar/Navbar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects'
 
 
 export default {
@@ -31,7 +35,8 @@ export default {
     Title,
     NavBar,
     About,
-    Skills
+    Skills,
+    Projects
   }
 }
 </script>
