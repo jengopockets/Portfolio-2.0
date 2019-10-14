@@ -15,6 +15,7 @@
     "jquery": "^3.4.1",
     "lettering": "^0.4.1",
     "letteringjs": "^0.7.0",
+    "reset-css": "^4.0.1",
     "sass": "^1.23.0",
     "sass-compass-cli": "^1.0.2",
     "sass-loader": "^8.0.0",

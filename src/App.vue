@@ -18,6 +18,9 @@
     <div>
       <Projects/>
     </div>
+    <div>
+      <Contacts/>
+    </div>
   </div>
 </template>
 
@@ -26,7 +29,8 @@ import Title from './components/Main/TitleContainer.vue';
 import NavBar from './components/NavBar/Navbar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
-import Projects from './components/Projects/Projects'
+import Projects from './components/Projects/Projects';
+import Contacts from './components/Contact/Contact';
 
 
 export default {
@@ -36,7 +40,8 @@ export default {
     NavBar,
     About,
     Skills,
-    Projects
+    Projects,
+    Contacts
   }
 }
 </script>
@@ -57,6 +62,7 @@ body {
   background-image: linear-gradient(to top, #111111 0%, black 100%);
   font-family: andromeda, Helvetica, sans-serif;
   line-height: 1.4;
+  width: 100%;
 }
 #stars {
   width: 1px;

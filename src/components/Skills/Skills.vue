@@ -30,7 +30,7 @@ export default {
 #img , img{
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 300px;
 }
 @media only screen and (min-width: 1500px) {
     #skills {
